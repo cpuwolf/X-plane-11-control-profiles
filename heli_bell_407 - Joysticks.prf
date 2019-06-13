@@ -34,6 +34,7 @@ _joy_unique_id9 VID:1103PID:65535
 _joy_unique_id10 VID:1155PID:22096
 _joy_unique_id11 VID:5840PID:2697
 _joy_unique_id12 VID:255PID:326
+_joy_unique_id13 VID:1155PID:22144
 _joy_location0 \\?\hid#vid_06a3&pid_075c#6&8b3686&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location1 \\?\hid#{00001124-0000-1000-8000-00805f9b34fb}_vid&0002057e_pid&0306#a&36a88b76&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location3 \\?\hid#vid_068e&pid_00f2#6&2b4a8a07&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
@@ -46,6 +47,7 @@ _joy_location9 \\?\hid#thrustmastergamedevice#2&1262c57e&0&0000#{4d1e55b2-f16f-1
 _joy_location10 \\?\hid#vid_0483&pid_5650#6&315d1153&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location11 \\?\hid#vid_16d0&pid_0a89#6&251483f4&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location12 \\?\hid#vid_00ff&pid_0146&col01#6&1dc440c0&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+_joy_location13 \\?\hid#vid_0483&pid_5680#8&5f2d9d8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_lru_time0 1535001253
 _joy_lru_time1 1551663154
 _joy_lru_time2 1499865406

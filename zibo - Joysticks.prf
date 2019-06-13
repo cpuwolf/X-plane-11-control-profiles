@@ -34,6 +34,7 @@ _joy_unique_id9 VID:1103PID:65535
 _joy_unique_id10 VID:1155PID:22096
 _joy_unique_id11 VID:5840PID:2697
 _joy_unique_id12 VID:255PID:326
+_joy_unique_id13 VID:1155PID:22144
 _joy_location0 \\?\hid#vid_06a3&pid_075c#6&8b3686&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location1 \\?\hid#{00001124-0000-1000-8000-00805f9b34fb}_vid&0002057e_pid&0306#9&2cc02a71&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location3 \\?\hid#vid_068e&pid_00f2#7&595e123&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
@@ -46,6 +47,7 @@ _joy_location9 \\?\hid#thrustmastergamedevice#2&1262c57e&0&0000#{4d1e55b2-f16f-1
 _joy_location10 \\?\hid#vid_0483&pid_5650#6&315d1153&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location11 \\?\hid#vid_16d0&pid_0a89#6&251483f4&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_location12 \\?\hid#vid_00ff&pid_0146&col01#6&1dc440c0&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+_joy_location13 \\?\hid#vid_0483&pid_5680#8&5f2d9d8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
 _joy_lru_time0 1539565616
 _joy_lru_time1 1540544016
 _joy_lru_time2 1499865406
@@ -6055,76 +6057,118 @@ _joy_BUTN_use1276 sim/none/none
 _joy_BUTN_use1277 sim/none/none
 _joy_BUTN_use1278 sim/none/none
 _joy_BUTN_use1279 sim/none/none
-_joy_BUTN_use1280 sim/none/none
-_joy_BUTN_use1281 sim/none/none
+_joy_BUTN_use1280 sim/radios/obs_HSI_down
+_joy_BUTN_use1281 sim/radios/obs_HSI_up
 _joy_BUTN_use1282 sim/none/none
 _joy_BUTN_use1283 sim/none/none
-_joy_BUTN_use1284 sim/none/none
-_joy_BUTN_use1285 sim/none/none
+_joy_BUTN_use1284 sim/autopilot/airspeed_down
+_joy_BUTN_use1285 sim/autopilot/airspeed_up
 _joy_BUTN_use1286 sim/none/none
-_joy_BUTN_use1287 sim/none/none
-_joy_BUTN_use1288 sim/none/none
-_joy_BUTN_use1289 sim/none/none
-_joy_BUTN_use1290 sim/none/none
-_joy_BUTN_use1291 sim/none/none
-_joy_BUTN_use1292 sim/none/none
-_joy_BUTN_use1293 sim/none/none
+_joy_BUTN_use1287 laminar/B738/autopilot/n1_press
+_joy_BUTN_use_desc1287 N1 Mode
+_joy_BUTN_use1288 laminar/B738/autopilot/speed_press
+_joy_BUTN_use_desc1288 Speed Mode
+_joy_BUTN_use1289 laminar/B738/autopilot/lvl_chg_press
+_joy_BUTN_use_desc1289 Level Change Mode
+_joy_BUTN_use1290 laminar/B738/autopilot/spd_interv
+_joy_BUTN_use_desc1290 SPD intervention
+_joy_BUTN_use1291 laminar/B738/autopilot/vnav_press
+_joy_BUTN_use_desc1291 Vertical NAV Mode
+_joy_BUTN_use1292 sim/autopilot/heading_down
+_joy_BUTN_use1293 sim/autopilot/heading_up
 _joy_BUTN_use1294 sim/none/none
-_joy_BUTN_use1295 sim/none/none
-_joy_BUTN_use1296 sim/none/none
-_joy_BUTN_use1297 sim/none/none
+_joy_BUTN_use1295 laminar/B738/autopilot/hdg_sel_press
+_joy_BUTN_use_desc1295 Heading Select Mode
+_joy_BUTN_use1296 sim/autopilot/altitude_down
+_joy_BUTN_use1297 sim/autopilot/altitude_up
 _joy_BUTN_use1298 sim/none/none
-_joy_BUTN_use1299 sim/none/none
-_joy_BUTN_use1300 sim/none/none
-_joy_BUTN_use1301 sim/none/none
-_joy_BUTN_use1302 sim/none/none
-_joy_BUTN_use1303 sim/none/none
-_joy_BUTN_use1304 sim/none/none
-_joy_BUTN_use1305 sim/none/none
-_joy_BUTN_use1306 sim/none/none
-_joy_BUTN_use1307 sim/none/none
+_joy_BUTN_use1299 laminar/B738/autopilot/lnav_press
+_joy_BUTN_use_desc1299 FMS Lateral NAV Mode
+_joy_BUTN_use1300 laminar/B738/autopilot/vorloc_press
+_joy_BUTN_use_desc1300 VOR Localizer Mode
+_joy_BUTN_use1301 laminar/B738/autopilot/app_press
+_joy_BUTN_use_desc1301 Approach Mode
+_joy_BUTN_use1302 laminar/B738/autopilot/alt_hld_press
+_joy_BUTN_use_desc1302 Altitude Hold Mode
+_joy_BUTN_use1303 laminar/B738/autopilot/vs_press
+_joy_BUTN_use_desc1303 Vertical Speed Mode
+_joy_BUTN_use1304 sim/autopilot/vertical_speed_down
+_joy_BUTN_use1305 sim/autopilot/vertical_speed_up
+_joy_BUTN_use1306 sim/radios/copilot_obs_HSI_down
+_joy_BUTN_use1307 sim/radios/copilot_obs_HSI_up
 _joy_BUTN_use1308 sim/none/none
-_joy_BUTN_use1309 sim/none/none
-_joy_BUTN_use1310 sim/none/none
-_joy_BUTN_use1311 sim/none/none
-_joy_BUTN_use1312 sim/none/none
-_joy_BUTN_use1313 sim/none/none
+_joy_BUTN_use1309 laminar/B738/autopilot/alt_interv
+_joy_BUTN_use_desc1309 ALT intervention
+_joy_BUTN_use1310 laminar/B738/autopilot/cmd_a_press
+_joy_BUTN_use_desc1310 Command A
+_joy_BUTN_use1311 laminar/B738/autopilot/cmd_b_press
+_joy_BUTN_use_desc1311 Command B
+_joy_BUTN_use1312 laminar/B738/pfd/dh_pilot_dn
+_joy_BUTN_use_desc1312 Captain DH down
+_joy_BUTN_use1313 laminar/B738/pfd/dh_pilot_up
+_joy_BUTN_use_desc1313 Captain DH up
 _joy_BUTN_use1314 sim/none/none
 _joy_BUTN_use1315 sim/none/none
-_joy_BUTN_use1316 sim/none/none
-_joy_BUTN_use1317 sim/none/none
-_joy_BUTN_use1318 sim/none/none
-_joy_BUTN_use1319 sim/none/none
-_joy_BUTN_use1320 sim/none/none
-_joy_BUTN_use1321 sim/none/none
-_joy_BUTN_use1322 sim/none/none
-_joy_BUTN_use1323 sim/none/none
-_joy_BUTN_use1324 sim/none/none
-_joy_BUTN_use1325 sim/none/none
-_joy_BUTN_use1326 sim/none/none
-_joy_BUTN_use1327 sim/none/none
-_joy_BUTN_use1328 sim/none/none
-_joy_BUTN_use1329 sim/none/none
-_joy_BUTN_use1330 sim/none/none
-_joy_BUTN_use1331 sim/none/none
-_joy_BUTN_use1332 sim/none/none
-_joy_BUTN_use1333 sim/none/none
+_joy_BUTN_use1316 laminar/B738/EFIS_control/capt/push_button/rst_press
+_joy_BUTN_use_desc1316 CAPT EFIS Reset
+_joy_BUTN_use1317 laminar/B738/EFIS_control/capt/push_button/fpv_press
+_joy_BUTN_use_desc1317 CAPT Flight Path Vector
+_joy_BUTN_use1318 laminar/B738/EFIS_control/capt/push_button/wxr_press
+_joy_BUTN_use_desc1318 CAPT EFIS Weather
+_joy_BUTN_use1319 laminar/B738/EFIS_control/capt/push_button/sta_press
+_joy_BUTN_use_desc1319 CAPT EFIS Station
+_joy_BUTN_use1320 laminar/B738/EFIS_control/capt/push_button/ctr_press
+_joy_BUTN_use_desc1320 CAPT EFIS Center
+_joy_BUTN_use1321 laminar/B738/EFIS_control/capt/map_mode_up
+_joy_BUTN_use_desc1321 CAPT MAP mode Up
+_joy_BUTN_use1322 laminar/B738/EFIS_control/capt/map_mode_dn
+_joy_BUTN_use_desc1322 CAPT MAP mode Down
+_joy_BUTN_use1323 laminar/B738/EFIS_control/capt/push_button/mtrs_press
+_joy_BUTN_use_desc1323 CAPT ALT in Meters
+_joy_BUTN_use1324 laminar/B738/EFIS_control/capt/push_button/wpt_press
+_joy_BUTN_use_desc1324 CAPT EFIS Waypoint
+_joy_BUTN_use1325 laminar/B738/EFIS_control/capt/push_button/arpt_press
+_joy_BUTN_use_desc1325 CAPT EFIS Airport
+_joy_BUTN_use1326 laminar/B738/EFIS_control/capt/push_button/data_press
+_joy_BUTN_use_desc1326 CAPT EFIS DATA
+_joy_BUTN_use1327 laminar/B738/EFIS_control/capt/push_button/pos_press
+_joy_BUTN_use_desc1327 CAPT EFIS Position
+_joy_BUTN_use1328 laminar/B738/pilot/barometer_down
+_joy_BUTN_use_desc1328 Captain Barometer Down
+_joy_BUTN_use1329 laminar/B738/pilot/barometer_up
+_joy_BUTN_use_desc1329 Captain Barometer Up
+_joy_BUTN_use1330 laminar/B738/EFIS_control/capt/push_button/std_press
+_joy_BUTN_use_desc1330 CAPT EFIS Standard
+_joy_BUTN_use1331 laminar/B738/EFIS_control/capt/map_range_dn
+_joy_BUTN_use_desc1331 CAPT EFIS Map range Down
+_joy_BUTN_use1332 laminar/B738/EFIS_control/capt/map_range_up
+_joy_BUTN_use_desc1332 CAPT EFIS Map range Up
+_joy_BUTN_use1333 laminar/B738/EFIS_control/capt/push_button/tfc_press
+_joy_BUTN_use_desc1333 CAPT EFIS Traffic
 _joy_BUTN_use1334 sim/none/none
 _joy_BUTN_use1335 sim/none/none
-_joy_BUTN_use1336 sim/none/none
-_joy_BUTN_use1337 sim/none/none
-_joy_BUTN_use1338 sim/none/none
-_joy_BUTN_use1339 sim/none/none
+_joy_BUTN_use1336 laminar/B738/rtp_L/freq_khz/sel_dial_dn
+_joy_BUTN_use_desc1336 Radio Tuning Panel Left Freq khz Sel Down
+_joy_BUTN_use1337 laminar/B738/rtp_L/freq_khz/sel_dial_up
+_joy_BUTN_use_desc1337 Radio Tuning Panel Left Freq khz Sel Up
+_joy_BUTN_use1338 laminar/B738/rtp_L/freq_MHz/sel_dial_dn
+_joy_BUTN_use_desc1338 Radio Tuning Panel Left Freq MHz Sel Down
+_joy_BUTN_use1339 laminar/B738/rtp_L/freq_MHz/sel_dial_up
+_joy_BUTN_use_desc1339 Radio Tuning Panel Left Freq MHz Sel Up
 _joy_BUTN_use1340 sim/none/none
-_joy_BUTN_use1341 sim/none/none
-_joy_BUTN_use1342 sim/none/none
-_joy_BUTN_use1343 sim/none/none
-_joy_BUTN_use1344 sim/none/none
-_joy_BUTN_use1345 sim/none/none
-_joy_BUTN_use1346 sim/none/none
-_joy_BUTN_use1347 sim/none/none
+_joy_BUTN_use1341 laminar/B738/rtp_L/freq_txfr/sel_switch
+_joy_BUTN_use_desc1341 Radio Tuning Panel Left Freq Txfr Switch
+_joy_BUTN_use1342 laminar/B738/rtp_L/vhf_1/sel_switch
+_joy_BUTN_use_desc1342 Radio Tuning Panel Left VHF L Sel Switch
+_joy_BUTN_use1343 laminar/B738/rtp_L/vhf_2/sel_switch
+_joy_BUTN_use_desc1343 Radio Tuning Panel Left VHF C Sel Switch
+_joy_BUTN_use1344 sim/radios/stby_nav1_fine_down
+_joy_BUTN_use1345 sim/radios/stby_nav1_fine_up
+_joy_BUTN_use1346 sim/radios/stby_nav1_coarse_down
+_joy_BUTN_use1347 sim/radios/stby_nav1_coarse_up
 _joy_BUTN_use1348 sim/none/none
-_joy_BUTN_use1349 sim/none/none
+_joy_BUTN_use1349 laminar/B738/push_button/switch_freq_nav1_press
+_joy_BUTN_use_desc1349 NAV 1 Frequency Swap
 _joy_BUTN_use1350 sim/none/none
 _joy_BUTN_use1351 sim/none/none
 _joy_BUTN_use1352 sim/none/none
@@ -6874,76 +6918,120 @@ _joy_BUTN_use2076 sim/none/none
 _joy_BUTN_use2077 sim/none/none
 _joy_BUTN_use2078 sim/none/none
 _joy_BUTN_use2079 sim/none/none
-_joy_BUTN_use2080 sim/none/none
-_joy_BUTN_use2081 sim/none/none
-_joy_BUTN_use2082 sim/none/none
+_joy_BUTN_use2080 sim/radios/obs_HSI_down
+_joy_BUTN_use2081 sim/radios/obs_HSI_up
+_joy_BUTN_use2082 laminar/B738/toggle_switch/fdr_cover
+_joy_BUTN_use_desc2082 Cover FDR
 _joy_BUTN_use2083 sim/none/none
-_joy_BUTN_use2084 sim/none/none
-_joy_BUTN_use2085 sim/none/none
-_joy_BUTN_use2086 sim/none/none
-_joy_BUTN_use2087 sim/none/none
-_joy_BUTN_use2088 sim/none/none
-_joy_BUTN_use2089 sim/none/none
-_joy_BUTN_use2090 sim/none/none
-_joy_BUTN_use2091 sim/none/none
-_joy_BUTN_use2092 sim/none/none
-_joy_BUTN_use2093 sim/none/none
+_joy_BUTN_use2084 sim/autopilot/airspeed_down
+_joy_BUTN_use2085 sim/autopilot/airspeed_up
+_joy_BUTN_use2086 laminar/B738/autopilot/change_over_press
+_joy_BUTN_use_desc2086 IAS MACH Change Over
+_joy_BUTN_use2087 laminar/B738/autopilot/n1_press
+_joy_BUTN_use_desc2087 N1 Mode
+_joy_BUTN_use2088 laminar/B738/autopilot/speed_press
+_joy_BUTN_use_desc2088 Speed Mode
+_joy_BUTN_use2089 laminar/B738/autopilot/lvl_chg_press
+_joy_BUTN_use_desc2089 Level Change Mode
+_joy_BUTN_use2090 laminar/B738/autopilot/spd_interv
+_joy_BUTN_use_desc2090 SPD intervention
+_joy_BUTN_use2091 laminar/B738/autopilot/vnav_press
+_joy_BUTN_use_desc2091 Vertical NAV Mode
+_joy_BUTN_use2092 sim/autopilot/heading_down
+_joy_BUTN_use2093 sim/autopilot/heading_up
 _joy_BUTN_use2094 sim/none/none
-_joy_BUTN_use2095 sim/none/none
-_joy_BUTN_use2096 sim/none/none
-_joy_BUTN_use2097 sim/none/none
+_joy_BUTN_use2095 laminar/B738/autopilot/hdg_sel_press
+_joy_BUTN_use_desc2095 Heading Select Mode
+_joy_BUTN_use2096 sim/autopilot/altitude_down
+_joy_BUTN_use2097 sim/autopilot/altitude_up
 _joy_BUTN_use2098 sim/none/none
-_joy_BUTN_use2099 sim/none/none
-_joy_BUTN_use2100 sim/none/none
-_joy_BUTN_use2101 sim/none/none
-_joy_BUTN_use2102 sim/none/none
-_joy_BUTN_use2103 sim/none/none
-_joy_BUTN_use2104 sim/none/none
-_joy_BUTN_use2105 sim/none/none
-_joy_BUTN_use2106 sim/none/none
-_joy_BUTN_use2107 sim/none/none
+_joy_BUTN_use2099 laminar/B738/autopilot/lnav_press
+_joy_BUTN_use_desc2099 FMS Lateral NAV Mode
+_joy_BUTN_use2100 laminar/B738/autopilot/vorloc_press
+_joy_BUTN_use_desc2100 VOR Localizer Mode
+_joy_BUTN_use2101 laminar/B738/autopilot/app_press
+_joy_BUTN_use_desc2101 Approach Mode
+_joy_BUTN_use2102 laminar/B738/autopilot/alt_hld_press
+_joy_BUTN_use_desc2102 Altitude Hold Mode
+_joy_BUTN_use2103 laminar/B738/autopilot/vs_press
+_joy_BUTN_use_desc2103 Vertical Speed Mode
+_joy_BUTN_use2104 sim/autopilot/vertical_speed_down
+_joy_BUTN_use2105 sim/autopilot/vertical_speed_up
+_joy_BUTN_use2106 sim/radios/copilot_obs_HSI_down
+_joy_BUTN_use2107 sim/radios/copilot_obs_HSI_up
 _joy_BUTN_use2108 sim/none/none
-_joy_BUTN_use2109 sim/none/none
-_joy_BUTN_use2110 sim/none/none
-_joy_BUTN_use2111 sim/none/none
-_joy_BUTN_use2112 sim/none/none
-_joy_BUTN_use2113 sim/none/none
+_joy_BUTN_use2109 laminar/B738/autopilot/alt_interv
+_joy_BUTN_use_desc2109 ALT intervention
+_joy_BUTN_use2110 laminar/B738/autopilot/cmd_a_press
+_joy_BUTN_use_desc2110 Command A
+_joy_BUTN_use2111 laminar/B738/autopilot/cmd_b_press
+_joy_BUTN_use_desc2111 Command B
+_joy_BUTN_use2112 laminar/B738/pfd/dh_pilot_dn
+_joy_BUTN_use_desc2112 Captain DH down
+_joy_BUTN_use2113 laminar/B738/pfd/dh_pilot_up
+_joy_BUTN_use_desc2113 Captain DH up
 _joy_BUTN_use2114 sim/none/none
 _joy_BUTN_use2115 sim/none/none
-_joy_BUTN_use2116 sim/none/none
-_joy_BUTN_use2117 sim/none/none
-_joy_BUTN_use2118 sim/none/none
-_joy_BUTN_use2119 sim/none/none
-_joy_BUTN_use2120 sim/none/none
-_joy_BUTN_use2121 sim/none/none
-_joy_BUTN_use2122 sim/none/none
-_joy_BUTN_use2123 sim/none/none
-_joy_BUTN_use2124 sim/none/none
-_joy_BUTN_use2125 sim/none/none
-_joy_BUTN_use2126 sim/none/none
-_joy_BUTN_use2127 sim/none/none
-_joy_BUTN_use2128 sim/none/none
-_joy_BUTN_use2129 sim/none/none
-_joy_BUTN_use2130 sim/none/none
-_joy_BUTN_use2131 sim/none/none
-_joy_BUTN_use2132 sim/none/none
-_joy_BUTN_use2133 sim/none/none
+_joy_BUTN_use2116 laminar/B738/EFIS_control/capt/push_button/rst_press
+_joy_BUTN_use_desc2116 CAPT EFIS Reset
+_joy_BUTN_use2117 laminar/B738/EFIS_control/capt/push_button/fpv_press
+_joy_BUTN_use_desc2117 CAPT Flight Path Vector
+_joy_BUTN_use2118 laminar/B738/EFIS_control/capt/push_button/wxr_press
+_joy_BUTN_use_desc2118 CAPT EFIS Weather
+_joy_BUTN_use2119 laminar/B738/EFIS_control/capt/push_button/sta_press
+_joy_BUTN_use_desc2119 CAPT EFIS Station
+_joy_BUTN_use2120 laminar/B738/EFIS_control/capt/push_button/ctr_press
+_joy_BUTN_use_desc2120 CAPT EFIS Center
+_joy_BUTN_use2121 laminar/B738/EFIS_control/capt/map_mode_up
+_joy_BUTN_use_desc2121 CAPT MAP mode Up
+_joy_BUTN_use2122 laminar/B738/EFIS_control/capt/map_mode_dn
+_joy_BUTN_use_desc2122 CAPT MAP mode Down
+_joy_BUTN_use2123 laminar/B738/EFIS_control/capt/push_button/mtrs_press
+_joy_BUTN_use_desc2123 CAPT ALT in Meters
+_joy_BUTN_use2124 laminar/B738/EFIS_control/capt/push_button/wpt_press
+_joy_BUTN_use_desc2124 CAPT EFIS Waypoint
+_joy_BUTN_use2125 laminar/B738/EFIS_control/capt/push_button/arpt_press
+_joy_BUTN_use_desc2125 CAPT EFIS Airport
+_joy_BUTN_use2126 laminar/B738/EFIS_control/capt/push_button/data_press
+_joy_BUTN_use_desc2126 CAPT EFIS DATA
+_joy_BUTN_use2127 laminar/B738/EFIS_control/capt/push_button/pos_press
+_joy_BUTN_use_desc2127 CAPT EFIS Position
+_joy_BUTN_use2128 laminar/B738/pilot/barometer_down
+_joy_BUTN_use_desc2128 Captain Barometer Down
+_joy_BUTN_use2129 laminar/B738/pilot/barometer_up
+_joy_BUTN_use_desc2129 Captain Barometer Up
+_joy_BUTN_use2130 laminar/B738/EFIS_control/capt/push_button/std_press
+_joy_BUTN_use_desc2130 CAPT EFIS Standard
+_joy_BUTN_use2131 laminar/B738/EFIS_control/capt/map_range_dn
+_joy_BUTN_use_desc2131 CAPT EFIS Map range Down
+_joy_BUTN_use2132 laminar/B738/EFIS_control/capt/map_range_up
+_joy_BUTN_use_desc2132 CAPT EFIS Map range Up
+_joy_BUTN_use2133 laminar/B738/EFIS_control/capt/push_button/tfc_press
+_joy_BUTN_use_desc2133 CAPT EFIS Traffic
 _joy_BUTN_use2134 sim/none/none
 _joy_BUTN_use2135 sim/none/none
-_joy_BUTN_use2136 sim/none/none
-_joy_BUTN_use2137 sim/none/none
-_joy_BUTN_use2138 sim/none/none
-_joy_BUTN_use2139 sim/none/none
+_joy_BUTN_use2136 laminar/B738/rtp_L/freq_khz/sel_dial_dn
+_joy_BUTN_use_desc2136 Radio Tuning Panel Left Freq khz Sel Down
+_joy_BUTN_use2137 laminar/B738/rtp_L/freq_khz/sel_dial_up
+_joy_BUTN_use_desc2137 Radio Tuning Panel Left Freq khz Sel Up
+_joy_BUTN_use2138 laminar/B738/rtp_L/freq_MHz/sel_dial_dn
+_joy_BUTN_use_desc2138 Radio Tuning Panel Left Freq MHz Sel Down
+_joy_BUTN_use2139 laminar/B738/rtp_L/freq_MHz/sel_dial_up
+_joy_BUTN_use_desc2139 Radio Tuning Panel Left Freq MHz Sel Up
 _joy_BUTN_use2140 sim/none/none
-_joy_BUTN_use2141 sim/none/none
-_joy_BUTN_use2142 sim/none/none
-_joy_BUTN_use2143 sim/none/none
-_joy_BUTN_use2144 sim/none/none
-_joy_BUTN_use2145 sim/none/none
-_joy_BUTN_use2146 sim/none/none
-_joy_BUTN_use2147 sim/none/none
+_joy_BUTN_use2141 laminar/B738/rtp_L/freq_txfr/sel_switch
+_joy_BUTN_use_desc2141 Radio Tuning Panel Left Freq Txfr Switch
+_joy_BUTN_use2142 laminar/B738/rtp_L/vhf_1/sel_switch
+_joy_BUTN_use_desc2142 Radio Tuning Panel Left VHF L Sel Switch
+_joy_BUTN_use2143 laminar/B738/rtp_L/vhf_2/sel_switch
+_joy_BUTN_use_desc2143 Radio Tuning Panel Left VHF C Sel Switch
+_joy_BUTN_use2144 sim/radios/stby_nav1_fine_down
+_joy_BUTN_use2145 sim/radios/stby_nav1_fine_up
+_joy_BUTN_use2146 sim/radios/stby_nav1_coarse_down
+_joy_BUTN_use2147 sim/radios/stby_nav1_coarse_up
 _joy_BUTN_use2148 sim/none/none
-_joy_BUTN_use2149 sim/none/none
+_joy_BUTN_use2149 laminar/B738/push_button/switch_freq_nav1_press
+_joy_BUTN_use_desc2149 NAV 1 Frequency Swap
 _joy_BUTN_use2150 sim/none/none
 _joy_BUTN_use2151 sim/none/none
 _joy_BUTN_use2152 sim/none/none
