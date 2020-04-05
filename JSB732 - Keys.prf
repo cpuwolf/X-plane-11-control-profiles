@@ -172,7 +172,4 @@ E SHIFT sim/general/rot_right_fast
 R CTRL sim/general/rot_up_slow
 Q CTRL sim/general/rot_left_slow
 E CTRL sim/general/rot_right_slow
-H <NONE> tbm900/cockpit_builder/reload_config Reload cockpit builder configuration
 Z <NONE> stopzooming/allow_zoom_hold Allow zooming while key/button is held
-F ALT sim/operation/fail_system
-Delete <NONE> XPFR/MK08/toggle_hangar_doors opens / closes hangar doors if you are close enough

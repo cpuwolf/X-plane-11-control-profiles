@@ -172,3 +172,4 @@ E SHIFT sim/general/rot_right_fast
 R CTRL sim/general/rot_up_slow
 Q CTRL sim/general/rot_left_slow
 E CTRL sim/general/rot_right_slow
+Z <NONE> stopzooming/allow_zoom_toggle Toggle allow zooming

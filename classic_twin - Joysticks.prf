@@ -65,7 +65,7 @@ _joy_lru_time9 0
 _joy_lru_time10 1560464222
 _joy_lru_time11 0
 _joy_lru_time12 0
-_joy_lru_time13 1560403781
+_joy_lru_time13 1575546972
 _joy_lru_time14 0
 _joy_lru_time15 0
 _joy_lru_time16 0
@@ -923,7 +923,7 @@ _joy_lo_raw_dat347 9900000256.000000
 _joy_lo_raw_dat348 9900000256.000000
 _joy_lo_raw_dat349 9900000256.000000
 _joy_lo_raw_dat350 0.000000
-_joy_lo_raw_dat351 0.000000
+_joy_lo_raw_dat351 0.019608
 _joy_lo_raw_dat352 9900000256.000000
 _joy_lo_raw_dat353 9900000256.000000
 _joy_lo_raw_dat354 9900000256.000000
@@ -947,9 +947,9 @@ _joy_lo_raw_dat371 9900000256.000000
 _joy_lo_raw_dat372 9900000256.000000
 _joy_lo_raw_dat373 9900000256.000000
 _joy_lo_raw_dat374 9900000256.000000
-_joy_lo_raw_dat375 9900000256.000000
-_joy_lo_raw_dat376 9900000256.000000
-_joy_lo_raw_dat377 9900000256.000000
+_joy_lo_raw_dat375 0.003922
+_joy_lo_raw_dat376 0.003922
+_joy_lo_raw_dat377 0.003922
 _joy_lo_raw_dat378 9900000256.000000
 _joy_lo_raw_dat379 9900000256.000000
 _joy_lo_raw_dat380 9900000256.000000
@@ -1447,9 +1447,9 @@ _joy_hi_raw_dat371 -9900000256.000000
 _joy_hi_raw_dat372 -9900000256.000000
 _joy_hi_raw_dat373 -9900000256.000000
 _joy_hi_raw_dat374 -9900000256.000000
-_joy_hi_raw_dat375 -9900000256.000000
-_joy_hi_raw_dat376 -9900000256.000000
-_joy_hi_raw_dat377 -9900000256.000000
+_joy_hi_raw_dat375 1.000000
+_joy_hi_raw_dat376 1.000000
+_joy_hi_raw_dat377 1.000000
 _joy_hi_raw_dat378 -9900000256.000000
 _joy_hi_raw_dat379 -9900000256.000000
 _joy_hi_raw_dat380 -9900000256.000000
@@ -2923,7 +2923,7 @@ _joy_center347 0.000000
 _joy_center348 0.000000
 _joy_center349 0.000000
 _joy_center350 -0.003922
-_joy_center351 -0.003922
+_joy_center351 -0.024000
 _joy_center352 0.000000
 _joy_center353 0.000000
 _joy_center354 0.000000
@@ -4140,9 +4140,9 @@ _joy_prat64 0.000000
 _joy_prat65 0.000000
 _joy_prat66 0.000000
 _joy_damp0 0.000000
-_joy_damp1 0.100000
-_joy_damp2 1.000000
-_joy_damp3 1.000000
+_joy_damp1 0.000000
+_joy_damp2 0.000000
+_joy_damp3 0.000000
 _joy_damp4 0.000000
 _joy_damp5 0.000000
 _joy_damp6 0.000000
@@ -4648,9 +4648,9 @@ _joy_AXIS_use371 0
 _joy_AXIS_use372 0
 _joy_AXIS_use373 0
 _joy_AXIS_use374 0
-_joy_AXIS_use375 0
-_joy_AXIS_use376 0
-_joy_AXIS_use377 0
+_joy_AXIS_use375 6
+_joy_AXIS_use376 7
+_joy_AXIS_use377 3
 _joy_AXIS_use378 0
 _joy_AXIS_use379 0
 _joy_AXIS_use380 0
@@ -6413,8 +6413,7 @@ _joy_BUTN_use1620 FlyWithLua/QGMC710/CRS1_DEC
 _joy_BUTN_use_desc1620 CRS1 DEC speed up.
 _joy_BUTN_use1621 FlyWithLua/QGMC710/CRS1_INC
 _joy_BUTN_use_desc1621 CRS1 INC speed up.
-_joy_BUTN_use1622 FlyWithLua/QGMC710/ALT_DEC
-_joy_BUTN_use_desc1622 ALT DEC speed up.
+_joy_BUTN_use1622 sim/instruments/barometer_up
 _joy_BUTN_use1623 FlyWithLua/QGMC710/ALT_INC
 _joy_BUTN_use_desc1623 ALT INC speed up.
 _joy_BUTN_use1624 sim/GPS/g1000n3_nose_down
@@ -6953,8 +6952,8 @@ _joy_BUTN_use2154 sim/none/none
 _joy_BUTN_use2155 sim/none/none
 _joy_BUTN_use2156 sim/none/none
 _joy_BUTN_use2157 sim/none/none
-_joy_BUTN_use2158 sim/lights/nav_lights_on
-_joy_BUTN_use2159 sim/none/none
+_joy_BUTN_use2158 sim/flight_controls/flaps_down
+_joy_BUTN_use2159 sim/flight_controls/flaps_up
 _joy_BUTN_use2160 sim/none/none
 _joy_BUTN_use2161 sim/lights/landing_lights_on
 _joy_BUTN_use2162 sim/none/none
@@ -7045,8 +7044,8 @@ _joy_BUTN_use2246 sim/flight_controls/pitch_trimB_up
 _joy_BUTN_use2247 sim/flight_controls/pitch_trimB_down
 _joy_BUTN_use2248 sim/view/quick_look_4
 _joy_BUTN_use2249 sim/view/quick_look_6
-_joy_BUTN_use2250 sim/flight_controls/rudder_trim_left
-_joy_BUTN_use2251 sim/flight_controls/rudder_trim_right
+_joy_BUTN_use2250 sim/none/none
+_joy_BUTN_use2251 sim/none/none
 _joy_BUTN_use2252 sim/electrical/generator_1_on
 _joy_BUTN_use2253 sim/electrical/generator_1_off
 _joy_BUTN_use2254 sim/electrical/battery_1_on
@@ -8100,3 +8099,5 @@ _joy_AXIS_cmnd1505 sim/none/none
 _joy_AXIS_cmnd1508 sim/none/none
 _joy_AXIS_cmnd1509 sim/none/none
 axis_response_curve350 INTERP_MODE LINEAR | 0.000000 0.000000  | 1.000000 1.000000 
+axis_response_curve351 INTERP_MODE CATMULL_ROM | 0.000000 0.000000  | 0.500000 0.353553  | 1.000000 1.000000 
+axis_response_curve377 INTERP_MODE CATMULL_ROM | 0.000000 0.000000  | 0.500000 0.378929  | 1.000000 1.000000 

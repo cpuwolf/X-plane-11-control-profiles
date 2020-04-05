@@ -32,17 +32,17 @@ F14 SHIFT sim/operation/slider_14
 F15 SHIFT sim/operation/slider_15
 F16 SHIFT sim/operation/slider_16
 E SHIFT+CTRL sim/operation/auto_start
-F1 <NONE> SRS/X-Camera/Select_View_ID_1 Selects the camera with a view ID of 1
-F2 <NONE> SRS/X-Camera/Select_View_ID_2 Selects the camera with a view ID of 2
+F1 <NONE> sim/engines/throttle_down
+F2 <NONE> sim/engines/throttle_up
 F13 <NONE> sim/engines/TOGA_power
-F3 <NONE> SRS/X-Camera/Select_View_ID_3 Selects the camera with a view ID of 3
-F4 <NONE> SRS/X-Camera/Select_View_ID_4 Selects the camera with a view ID of 4
-F7 <NONE> SRS/X-Camera/Select_View_ID_7 Selects the camera with a view ID of 7
-F5 <NONE> SRS/X-Camera/Select_View_ID_5 Selects the camera with a view ID of 5
-F6 <NONE> SRS/X-Camera/Select_View_ID_6 Selects the camera with a view ID of 6
-F8 <NONE> SRS/X-Camera/Select_View_ID_8 Selects the camera with a view ID of 8
-F9 <NONE> SRS/X-Camera/Select_View_ID_9 Selects the camera with a view ID of 9
-F10 <NONE> SRS/X-Camera/Toggle_TrackIR_on_or_off_for_this_camera Toggles TrackIR on or off for the current camera
+F3 <NONE> sim/engines/prop_down
+F4 <NONE> sim/engines/prop_up
+F7 <NONE> sim/engines/mixture_min
+F5 <NONE> sim/engines/mixture_down
+F6 <NONE> sim/engines/mixture_up
+F8 <NONE> sim/engines/mixture_max
+F9 <NONE> sim/engines/carb_heat_off
+F10 <NONE> sim/engines/carb_heat_on
 F11 <NONE> sim/engines/carb_heat_toggle
 F12 <NONE> sim/engines/idle_hi_lo_toggle
 / <NONE> sim/engines/beta_toggle
